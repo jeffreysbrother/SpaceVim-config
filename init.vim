@@ -43,12 +43,7 @@ let g:spacevim_lint_on_save = 0
 let g:spacevim_statusline_separator = 'nil'
 " let g:spacevim_colorscheme = 'Anderson'
 " let g:spacevim_colorscheme = 'onedark'
-" let g:spacevim_colorscheme = 'twofirewatch'
-" let g:spacevim_colorscheme = 'zenburn'
-" let g:spacevim_colorscheme = 'dracula'
 let g:spacevim_colorscheme = 'nord'
-set background=dark
-set t_Co=256
 
 if executable('vimlint')
     call add(g:neomake_vim_enabled_makers, 'vimlint') 
