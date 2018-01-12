@@ -29,6 +29,7 @@ call SpaceVim#layers#load('tools#screensaver')
 " If you want to add some custom plugins, use these options:
 let g:spacevim_custom_plugins = [
   \ ['captbaritone/better-indent-support-for-php-with-html'],
+  \ ['Valloric/MatchTagAlways'],
 \ ]
 
 let g:spacevim_enable_vimfiler_welcome = 1
@@ -44,6 +45,14 @@ let g:spacevim_statusline_separator = 'nil'
 " let g:spacevim_colorscheme = 'Anderson'
 " let g:spacevim_colorscheme = 'onedark'
 let g:spacevim_colorscheme = 'nord'
+let g:mta_use_matchparen_group = 1
+
+let g:mta_filetypes = {
+  \ 'html' : 1,
+  \ 'xhtml' : 1,
+  \ 'xml' : 1,
+  \ 'php' : 1,
+\ }
 
 " ensure that HTML docuemnts wrap appropriately
 set breakindent
