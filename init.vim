@@ -2,13 +2,13 @@
 let g:spacevim_enable_debug = 1
 let g:spacevim_realtime_leader_guide = 1
 call SpaceVim#layers#load('incsearch')
-call SpaceVim#layers#load('lang#go')
+" call SpaceVim#layers#load('lang#go')
 call SpaceVim#layers#load('lang#haskell')
 call SpaceVim#layers#load('lang#javascript')
 " call SpaceVim#layers#load('lang#php')
 call SpaceVim#layers#load('lang#python')
 call SpaceVim#layers#load('lang#markdown')
-call SpaceVim#layers#load('lang#swig')
+" call SpaceVim#layers#load('lang#swig')
 call SpaceVim#layers#load('lang#tmux')
 call SpaceVim#layers#load('lang#vim')
 call SpaceVim#layers#load('lang#xml')
@@ -56,7 +56,6 @@ let g:mta_filetypes = {
 
 " ensure that HTML docuemnts wrap appropriately
 set breakindent
-set autoindent
 
 if executable('vimlint')
     call add(g:neomake_vim_enabled_makers, 'vimlint') 
