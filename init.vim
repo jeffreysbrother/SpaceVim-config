@@ -27,9 +27,9 @@ call SpaceVim#layers#load('tools#screensaver')
 " \ ]
 
 " If you want to add some custom plugins, use these options:
-" let g:spacevim_custom_plugins = [
-"   \ ['dracula/vim'],
-" \ ]
+let g:spacevim_custom_plugins = [
+  \ ['captbaritone/better-indent-support-for-php-with-html'],
+\ ]
 
 let g:spacevim_enable_vimfiler_welcome = 1
 let g:spacevim_enable_debug = 1
@@ -45,6 +45,10 @@ let g:spacevim_statusline_separator = 'nil'
 " let g:spacevim_colorscheme = 'onedark'
 let g:spacevim_colorscheme = 'nord'
 
+" ensure that HTML docuemnts wrap appropriately
+set breakindent
+set autoindent
+
 if executable('vimlint')
     call add(g:neomake_vim_enabled_makers, 'vimlint') 
 endif
@@ -57,5 +61,3 @@ if has('python3')
 endif
 let g:clang2_placeholder_next = ''
 let g:clang2_placeholder_prev = ''
-
-
