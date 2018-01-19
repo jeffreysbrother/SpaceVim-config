@@ -44,6 +44,7 @@ let g:spacevim_lint_on_save = 0
 let g:spacevim_statusline_separator = 'nil'
 " let g:spacevim_colorscheme = 'Anderson'
 " let g:spacevim_colorscheme = 'onedark'
+" let g:spacevim_colorscheme = 'gruvbox'
 let g:spacevim_colorscheme = 'nord'
 let g:mta_use_matchparen_group = 1
 
