@@ -30,6 +30,7 @@ call SpaceVim#layers#load('tools#screensaver')
 let g:spacevim_custom_plugins = [
   \ ['captbaritone/better-indent-support-for-php-with-html'],
   \ ['Valloric/MatchTagAlways'],
+  \ ['mattn/emmet-vim'],
 \ ]
 
 let g:spacevim_enable_vimfiler_welcome = 1
